@@ -1,0 +1,72 @@
+{
+  "extends": [
+    "airbnb-typescript/base"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.eslint.json"
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true
+  },
+  "rules": {
+    "no-tabs": 2,
+    "max-len": [
+      "error", 
+      {
+        "code": 150,
+        "tabWidth": 2
+      }
+    ],
+    "import/prefer-default-export": 0,
+    "no-empty-function": "off",
+    "@typescript-eslint/no-empty-function": ["off"],
+    "@typescript-eslint/semi": 0,
+    "indent": "off",
+    "semi": ["error", "never"],
+    "no-param-reassign": "off",
+    "import/no-cycle": "off",
+    "no-continue": "off",
+    "prefer-destructuring": ["error", {
+      "array": false,
+      "object": true
+    }],
+    "@typescript-eslint/indent": [
+      "error",
+      2
+    ],
+    "block-spacing" : [
+      "error",
+      "never"
+    ],
+    "object-curly-spacing": "off",
+    "@typescript-eslint/object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "no-plusplus": "off",
+    "no-underscore-dangle": "off",
+    "arrow-parens": "off",
+    "@typescript-eslint/lines-between-class-members": "off",
+    "@typescript-eslint/comma-dangle": [
+      "error",
+      "never"
+    ],
+    "import/no-extraneous-dependencies": [
+      "error", 
+      {
+        "devDependencies": true,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }]
+  }
+}
