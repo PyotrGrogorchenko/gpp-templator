@@ -34,7 +34,6 @@ export const config: Configuration = {
   resolveLoader: {
     modules: [
       'node_modules'
-      // path.resolve(__dirname, 'loaders')
     ]
   },
   module: {
@@ -47,12 +46,6 @@ export const config: Configuration = {
         use: [
           'babel-loader',
           'gpp-loader'
-          // {
-          //   loader: 'gpp-loader',
-          //   options: {
-          //     componentsDir: 'components'
-          //   }
-          // }
         ]
       },
       {
