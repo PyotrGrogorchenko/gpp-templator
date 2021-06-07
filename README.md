@@ -17,6 +17,22 @@ $ npm i gpp-templator
 For ease of use, use [gpp-loader](https://www.npmjs.com/package/gpp-loader) for [webpack](https://github.com/webpack/webpack).
 Below is a quick example how to use gpp-templator:
 
+```html
+// file: index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messanger</title>
+</head>
+<body>
+  <div class='app'></div>
+</body>
+</html>
+```
+
 ```typescript
 // file: Page.gpp.ts
 
