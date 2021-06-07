@@ -13,6 +13,5 @@
 .nvmrc
 app.js
 tsconfig.eslint.json
-tsconfig.json
 tsconfig.prod.json
 webpack.config.ts
