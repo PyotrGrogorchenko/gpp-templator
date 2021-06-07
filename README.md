@@ -1,6 +1,6 @@
 # gpp-templator - templator with TypeScript
 
-> Per aspera ad astra
+> Per aspera ad astra!
 
 [![Build Status](https://img.shields.io/badge/build-passing-green)](https://www.npmjs.com/package/gpp-templator)
 
@@ -13,6 +13,8 @@ $ npm i gpp-templator
 ```
 
 ## Usage
+
+[You can quick start here](https://github.com/PyotrGrogorchenko/gpp-templator-quick-start)
 
 For ease of use, use [gpp-loader](https://www.npmjs.com/package/gpp-loader) for [webpack](https://github.com/webpack/webpack).
 Below is a quick example how to use gpp-templator:
@@ -34,7 +36,7 @@ Below is a quick example how to use gpp-templator:
 ```
 
 ```typescript
-// file: Page.gpp.ts
+// file: ./Page/Page.gpp.ts
 
 import { Component } from 'gpp-templator'
 import { Button } from '/home/project/src/components/Button/index.ts'
@@ -73,7 +75,7 @@ template() {
 ```
 
 ```typescript
-// file: Button.gpp.ts
+// file: ./Button/Button.gpp.ts
 
 import { Component } from 'gpp-templator'
 
