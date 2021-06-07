@@ -25,7 +25,7 @@ Below is a quick example how to use gpp-templator:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Messanger</title>
+  <title>Quick example</title>
 </head>
 <body>
   <div class='app'></div>
