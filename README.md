@@ -14,7 +14,7 @@ $ npm i gpp-templator
 
 ## Usage
 
-For ease of use, use [gpp-templator](https://www.npmjs.com/package/gpp-templator) for [webpack](https://github.com/webpack/webpack).
+For ease of use, use [gpp-loader](https://www.npmjs.com/package/gpp-loader) for [webpack](https://github.com/webpack/webpack).
 Below is a quick example how to use gpp-templator:
 
 ```typescript
