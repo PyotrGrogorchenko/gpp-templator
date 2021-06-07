@@ -1,5 +1,10 @@
 /.vscode
-/src
+/src/components
+/src/css
+/src/icons
+/src/pages
+/src/utils
+/src/index.ts
 /static
 /webpack
 .babelrc
