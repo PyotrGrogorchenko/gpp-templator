@@ -1,6 +1,6 @@
 {
   "name": "gpp-templator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "gpp-templator",
   "main": "src/component/index.ts",
   "repository": {

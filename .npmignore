@@ -1,0 +1,14 @@
+/.vscode
+/src
+/static
+/webpack
+.babelrc
+.eslintignore
+.eslintrc
+.gitignore
+.nvmrc
+app.js
+tsconfig.eslint.json
+tsconfig.json
+tsconfig.prod.json
+webpack.config.ts

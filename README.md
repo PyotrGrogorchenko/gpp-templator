@@ -2,11 +2,11 @@
 
 > Per aspera ad astra
 
-[![Build Status](https://travis-ci.org/janl/mustache.js.svg?branch=master)](https://travis-ci.org/janl/mustache.js)
+[![Build Status](https://img.shields.io/badge/build-passing-green)](https://www.npmjs.com/package/gpp-templator)
 
 ## Install
 
-You can get Mustache via [npm](https://www.npmjs.com/package/gpp-templator).
+> node 14.x | webpack 5.x | gpp-loader 1.x | gpp-templator 1.x
 
 ```bash
 $ npm i gpp-templator
@@ -14,9 +14,12 @@ $ npm i gpp-templator
 
 ## Usage
 
+For ease of use, use [gpp-templator](https://www.npmjs.com/package/gpp-templator) for [webpack]
 Below is a quick example how to use gpp-templator:
 
 ```typescript
+// file: Page.gpp.ts
+
 import { Component } from 'gpp-templator'
 import { Button } from '/home/project/src/components/Button/index.ts'
 
@@ -54,6 +57,8 @@ template() {
 ```
 
 ```typescript
+// file: Button.gpp.ts
+
 import { Component } from 'gpp-templator'
 
 export class Button extends Component {
@@ -68,4 +73,12 @@ template() {
     )
   }
 }
+```
+```typescript
+// file: index.ts
+
+import { renderApp } from 'gpp-templator'
+import { Page } from './Page'
+
+renderApp(Page)
 ```
