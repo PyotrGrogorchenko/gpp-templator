@@ -1,4 +1,4 @@
-import { get, regexpMatchAll } from '@utils'
+import { get, regexpMatchAll } from '../../utils'
 import { regExpParam } from '../constsnts'
 
 export const getHeaderProps = (context: LooseObject, template: LooseObject, tagName: string): any => {

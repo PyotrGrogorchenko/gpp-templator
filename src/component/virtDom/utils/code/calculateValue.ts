@@ -1,4 +1,4 @@
-import { get, regexpMatchAll } from '@utils'
+import { get, regexpMatchAll } from '../../../utils'
 import { regExpParam, primitives } from '../../constsnts'
 
 export const calculateValue = (context: LooseObject, code: string): any => {
