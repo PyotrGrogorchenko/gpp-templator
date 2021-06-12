@@ -1,12 +1,14 @@
 # gpp-templator - templator with TypeScript
 
-> Per aspera ad astra!
-
 [![Build Status](https://img.shields.io/badge/build-passing-green)](https://www.npmjs.com/package/gpp-templator)
+
+gpp-templator is a TypeScript library for building user interfaces.
+
+* **Declarative:** gpp makes it painless to create interactive UIs. Design simple views for each state in your application, and gpp will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug.
 
 ## Install
 
-> node 14.x | webpack 5.x | gpp-loader 1.x | gpp-templator 1.x
+> node 14.x
 
 ```bash
 $ npm i gpp-templator
