@@ -6,7 +6,7 @@ export const renderApp = (Component: any) => {
   while (root.firstChild) {
     root.removeChild(root.firstChild)
   }
-const app = new Component()
+  const app = new Component()
   const RootComponent = selectRootComponent()
   setRootComponent(app)
   if (RootComponent) {
