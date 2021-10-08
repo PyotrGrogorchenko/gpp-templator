@@ -54,7 +54,7 @@ export class Page extends Component {
 
 onClick = (e:Event) => {
   e.preventDefault()
-  alert('On batton click!')
+  alert('On button click!')
 }
 
 components() {
