@@ -105,3 +105,6 @@ import { Page } from './Page'
 
 renderApp(Page)
 ```
+## Credits
+
+* [PyotrGrigorchenko](https://github.com/PyotrGrogorchenko) - Developer
