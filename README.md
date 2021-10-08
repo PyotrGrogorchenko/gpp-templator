@@ -1,4 +1,4 @@
-# gpp-templator - templator with TypeScript
+# gpp-templator
 
 [![Build Status](https://img.shields.io/badge/build-passing-green)](https://www.npmjs.com/package/gpp-templator)
 
