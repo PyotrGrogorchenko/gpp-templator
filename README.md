@@ -1,6 +1,6 @@
 # [gpp-templator](https://www.npmjs.com/package/gpp-templator) &middot; [![Build Status](https://img.shields.io/badge/build-passing-green)](https://www.npmjs.com/package/gpp-templator)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png" width=20 height=20 alt="JavaScript"/>  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png" width=20 height=20 alt="TypeScript"/> <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width=20 height=20 alt="HTML 5"/><img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" width=20 height=20 alt="CSS"/> <img src="https://github.com/webpack/media/blob/master/logo/icon-square-big.svg" width=20 height=20 alt="webpack"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png" width=20 height=20 alt="JavaScript"/>  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png" width=20 height=20 alt="TypeScript"/> <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width=20 height=20 alt="HTML 5"/><img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" width=20 height=20 alt="CSS"/><img src="https://github.com/webpack/media/blob/master/logo/icon-square-big.svg" width=20 height=20 alt="webpack"/>
 
 ## Description
 gpp-templator is a TypeScript library for building user interfaces.
